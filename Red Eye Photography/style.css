@@ -1,0 +1,73 @@
+html, body {
+    background-color: #cccdce;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+
+/*=================== Header ================================================*/
+
+.header {
+    background-color: #fff;
+    height: 140px;
+    text-align: center;
+}
+
+.header h1 {
+    color: #31363d;
+    font-size: 32px;
+    margin: 0;
+    line-height: 140px;
+}
+
+/*=================== Nav ===================================================*/
+
+.nav ul {
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+.nav li {
+    -webkit-transition:color 0.25s;
+    transition:color 0.25s;
+    display: inline-block;
+    padding: 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.nav li:hover {
+    color: #31363d;
+    cursor: pointer; 
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+/*=================== Main ==================================================*/
+
+.row {
+    padding: 15px;
+}
+
+/*=================== Footer ==================================================*/
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 90px;
+    padding-right: 30px;
+    text-align: right;
+    font-size: 10px;
+}
+
+/*=================== Media =================================================*/
+
+@media (max-width: 500px) {
+    .row {
+        margin-top: 0;
+    }
+    .img-responsive {
+        margin-bottom: 20px;
+    }
+}
