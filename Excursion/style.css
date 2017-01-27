@@ -36,7 +36,7 @@ html, body {
     text-shadow: 0 2px 3px rgba(0,0,0,.4);
 }
 
-.main a{
+.button {
     background-color: #4386fc;
     color: #fff;
     font-size: 18px;
@@ -51,6 +51,7 @@ html, body {
 .supporting {
     margin-top: 100px;
     margin-bottom: 130px;
+    text-align: center;
 }
 
 .supporting h2 {
@@ -69,6 +70,8 @@ html, body {
 
 .feature {
     height: 500px;
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/excursion/camp.png) no-repeat center center;
+    background-size: cover;
 }
 
 /*========== Second Supporting Section ====================*/
@@ -76,6 +79,7 @@ html, body {
 
 .footer {
     padding: 30px;
+    background: #eee;
 }
 
 /*========== Media ====================*/
