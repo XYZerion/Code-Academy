@@ -87,18 +87,35 @@ body {
     color: #fff;
 }
 
-.supporting h2 {
+.header2 {
     font-size: 34px;
     color: #0393ff;
 }
 
 .thumbnail {
+		background: transparent;
     border: none;
     padding: 0;
 }
 
 
 /*========== Feature ====================*/
+
+.feature {
+	text-align: center;
+	background: url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg) no-repeat center center;
+	height: 400px;
+	background-size: cover;
+}
+
+.feature h2 {
+	//try to center this verticaly somehow
+}
+
+.feature p {
+	color: #fff;
+	font-size: 1.8rem
+}
 
 
 /*========== Footer ====================*/
