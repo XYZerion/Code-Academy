@@ -1,4 +1,66 @@
-html, body {
+html,
+body {
 	margin: 0;
 	padding: 0;
+	color: #fff;
+}
+
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+
+/*========== Jumbotron ==========*/
+
+.jumbotron {
+	background: url(https://s3.amazonaws.com/codecademy-content/projects/bass/bg.jpg) no-repeat center center;
+	background-size: cover
+}
+
+
+/***** Links *****/
+
+.jumbotron ul {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 50px;
+}
+
+.jumbotron li {
+	display: inline;
+	padding: 10px 25px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.jumbotron a:hover {
+	color: #fff;
+}
+
+.jumbotron ul a:nth-child(2) {
+	text-decoration: none;
+}
+
+#download {
+	background: #ff003d;
+}
+
+#download:hover {
+	color: #000;
+}
+
+
+/***** Main	*****/
+
+.jumbotron h1 {
+	margin-top: 100px;
+}
+
+.jumbotron p {
+	margin-bottom: 150px;
+}
+
+#main {
+	padding-right: 140px;
 }
