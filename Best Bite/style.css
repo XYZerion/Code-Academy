@@ -46,7 +46,7 @@ html, body {
 
 .jumbotron {
     height: 500px;
-    background: url(https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg) no-repeat center center;
+    background: url(bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
