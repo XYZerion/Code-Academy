@@ -78,10 +78,10 @@ Make a Website
 100%
 
 JavaScript
-20%
+50%
 
 Learn Sass
-8%
+50%
 
 jQuery
 0%
